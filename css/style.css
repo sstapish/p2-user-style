@@ -1,0 +1,44 @@
+
+body {
+  background: #E6F0E0;
+}
+
+header, div {
+  display: inline-block;
+  width: 95%;
+  background: #B6BFBF;
+  margin: 5% auto;
+  padding: 1%;
+  border: solid 2px #33E5CF;
+}
+
+.portrait {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.panel {
+	background: 
+}
+nav {
+	display: inline-block;
+	float: right;
+}
+nav li {
+  	display: inline-block;
+	float: left;
+	list-style: none;
+	margin: 20px 20px 10px 20px;
+}
+
+ nav ul {
+   float: right;
+ }
+
+nav a {
+	background: #57C1AD;
+	color: white;
+	padding: 20px 30px;
+	border-radius: 5px;
+	text-decoration: none;
+}
