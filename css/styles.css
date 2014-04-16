@@ -3,23 +3,34 @@ body {
   background: #E6F0E0;
 }
 
-header, div {
+h2, h3, p {
+	margin: 0;
+}
+
+header {
   display: inline-block;
-  width: 95%;
-  background: #B6BFBF;
-  margin: 5% auto;
+  width: 90%;
+  margin: 0 4% 0 4%;
   padding: 1%;
-  border: solid 2px #33E5CF;
+
+  /*background: #B6BFBF;*/
+  /*border: solid 2px #33E5CF;*/
 }
 
 .portrait {
 	width: 90%;
-	margin: 0 auto;
+	margin: 0 5%;
 }
 
-.panel {
-	background: 
+.right {
+  width: 60%;
+  float: right;
+  background: #B6BFBF;
+  margin: 2% 4% 0 4%;
+  padding: 1%;
+  border: solid 2px #33E5CF;
 }
+
 nav {
 	display: inline-block;
 	float: right;
@@ -41,4 +52,21 @@ nav a {
 	padding: 20px 30px;
 	border-radius: 5px;
 	text-decoration: none;
+}
+
+section {
+	margin: 20px 0;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
 }
