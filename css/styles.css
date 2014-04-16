@@ -9,10 +9,14 @@ h2, h3 {
 	font-family: 'Buenard', serif;
 }
 
-p {
+p, a {
 	font-family: 'Gentium Book Basic', serif;
 }
 
+a {
+	text-decoration: none;
+	color: #3C8577;
+}
 header {
   display: inline-block;
   width: 90%;
@@ -46,6 +50,7 @@ nav li {
 	float: left;
 	list-style: none;
 	margin: 20px 20px 10px 20px;
+	
 }
 
  nav ul {
@@ -53,14 +58,20 @@ nav li {
  }
 
 nav a {
-	background: #57C1AD;
+	background: -webkit-linear-gradient(top, rgba(36,224,202,1) 9%, rgba(54,206,185,1) 31%, 
+		rgba(74,186,166,1) 55%, rgba(74,186,166,1) 79%, rgba(74,186,166,1) 100%);
 	color: white;
 	padding: 20px 30px;
 	border-radius: 5px;
+	box-shadow: 2px 2px 15px 0px rgba(13,12,13,1);
 }
-a {
-	text-decoration: none;
-}
+ nav a:hover {
+ 	font-size: 1.2em;
+ 	
+ }
+
+
+
 
 .color-1,
 .color-2,
@@ -98,4 +109,52 @@ a {
 .pattern-3 {
 	border: 3px solid #000;
 
+	}
+.pattern-2 {
+background-image: -webkit-gradient(
+		linear,
+	left bottom,
+	left top,
+	color-stop(0.15, #FF778D),
+	color-stop(1, #ED5B6C)
+		);
+     background-image: -webkit-linear-gradient(top, #FF778D 15%, #ED5B6C 100%);
+
+}
+
+.pattern-3 {
+
+	background: -webkit-linear-gradient(top, rgba(36,224,202,1) 9%, rgba(54,206,185,1) 31%, 
+		rgba(74,186,166,1) 55%, rgba(74,186,166,1) 79%, rgba(74,186,166,1) 100%);
+}
+.button a {
+	color: white;
+}
+	.button {
+		margin: 5%;
+		padding: 3%;
+		width: 15%;
+		font-size: 1.2em;
+		border-radius: 15px;
+		
+		box-shadow: 2px 2px 15px 0px rgba(13,12,13,1);
+	
+	/*Gradient*/
+	background-image: -webkit-gradient(
+		linear,
+	left bottom,
+	left top,
+	color-stop(0.15, #FF778D),
+	color-stop(1, #ED5B6C)
+		);
+     background-image: -webkit-linear-gradient(top, #FF778D 15%, #ED5B6C 100%);
+
+	}
+	
+.button:visited {
+
+	}
+
+	.button:hover, .buton:active {
+		font-size: 1.3em;
 	}
