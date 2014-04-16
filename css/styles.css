@@ -1,8 +1,17 @@
 
 body {
-  background: url(..//img/fibers.png), #E6F0E0;
+  background: url(..//img/fibers.png), #f2f4f4;
+}
+h1 {
+	font-family: 'Scada', sans-serif;
+}
+h2, h3 {
+	font-family: 'Alike', serif;
 }
 
+p {
+	font-family: 'Roboto', sans-serif;
+}
 
 header {
   display: inline-block;
@@ -59,12 +68,18 @@ a {
 .pattern-1,
 .pattern-2,
 .pattern-3 {
-	border: 1px solid #000;
+	
 	float: left;
 	margin: 0 10px;
 	height: 50px;
 	width: 50px;
 }
+
+.color-1,
+.color-2,
+.color-3 {
+	border: 1px solid #000;
+	}
 
 .color-1 {
 	background: #57C1AD;
@@ -77,3 +92,10 @@ a {
 .color-3 {
 	background: #ed5b6d;
 }
+
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 3px solid #000;
+
+	}
